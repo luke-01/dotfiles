@@ -1,52 +1,43 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+.bash_history
+.cache/
+.cargo/
+.config/BraveSoftware/
+.config/cef_user_data/
+.config/coc/
+.config/dconf/
+.config/discord/
+.config/gtk-3.0/
+.config/gtk-2.0/
+.config/htop/
+.config/libfm/
+.config/light/
+.config/neofetch/
+.config/nitrogen/
+.config/pcmanfm/
+.config/QtProject.conf
+.config/spotify/
+.config/VirtualBox/
+Downloads/
+gamemode/
+.gnupg/
+.gtkrc-2.0
+.icons/
+.INSTALL
+.lesshst
+.local/
+misc/
+.MTREE
+Pictures/
+.PKGINFO
+.pki/
+.rustup/
+.steam/
+.steampath/
+.steampid/
+.vim/
+.viminfo
+.wget-hsts
+.Xauthority
+.xinitrc-default
+yay/
+.zcompdump
