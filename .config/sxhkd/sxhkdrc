@@ -18,6 +18,9 @@ super + w
 super + @space
 	dmenu_run
 
+super + x
+    lxsession-logout
+
 # Multimedia Keys
 XF86AudioMute
     amixer set Master toggle

@@ -1,5 +1,8 @@
 #! /bin/sh
 
+# keymap
+setxkbmap latam -option 'ctrl:swapcaps'
+
 # compositor and wallpaper
 
 pgrep -x picom > /dev/null || picom &
