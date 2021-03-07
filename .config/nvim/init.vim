@@ -57,16 +57,18 @@ Plug 'rust-lang/rls'
 "Visual flourishes
 Plug 'itchyny/lightline.vim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'sheerun/vim-polyglot'
 
 "Colorschemes
 Plug 'dracula/vim', {'name': 'dracula'}
 Plug 'morhetz/gruvbox'
-Plug 'arcticicestudio/nord-vim'
+Plug 'tomasiser/vim-code-dark'
+Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
 let g:gruvbox_contrast_dark='hard'
-colorscheme gruvbox
+colorscheme onedark
 
 "NERDTree Config
 let g:NERDTreeShowHidden = 1
