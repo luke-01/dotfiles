@@ -5,7 +5,7 @@ truncation_length = 1
 
 [hostname]
 ssh_only = false
-format = "[$hostname]($style) "
+format = " [$hostname]($style) "
 style = "bold red"
 
 [username]

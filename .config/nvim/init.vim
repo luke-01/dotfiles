@@ -68,6 +68,7 @@ Plug 'joshdick/onedark.vim'
 call plug#end()
 
 let g:gruvbox_contrast_dark='hard'
+let g:lightline = {'colorscheme': 'one',}
 colorscheme onedark
 
 "NERDTree Config
