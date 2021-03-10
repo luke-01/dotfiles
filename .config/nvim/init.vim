@@ -51,8 +51,7 @@ call plug#begin(stdpath('data') . '/plugged')
 "Utilities
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'rust-lang/rls'
+Plug 'neovim/nvim-lspconfig'
 
 "Visual flourishes
 Plug 'itchyny/lightline.vim'
@@ -60,16 +59,17 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 
 "Colorschemes
-Plug 'dracula/vim', {'name': 'dracula'}
-Plug 'morhetz/gruvbox'
 Plug 'tomasiser/vim-code-dark'
 Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
-let g:gruvbox_contrast_dark='hard'
+"Colorscheme Config
 let g:lightline = {'colorscheme': 'one',}
 colorscheme onedark
+
+"LSP Config
+lua require('lspconfig').clangd.setup{}
 
 "NERDTree Config
 let g:NERDTreeShowHidden = 1
@@ -87,8 +87,3 @@ let g:fzf_action = {
     \ 'ctrl-s': 'split',
     \ 'ctrl-v': 'vsplit'
     \}
-"COC Config
-inoremap <silent><expr> <c-space> coc#refresh()
-
-"Rust Config
-let g:rustfmt_autosave = 1
