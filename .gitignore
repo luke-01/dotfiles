@@ -5,6 +5,8 @@
 .config/cef_user_data/
 .config/coc/
 .config/dconf/
+.config/deadbeef/dspconfig
+.config/deadbeef/playlists/
 .config/discord/
 .config/gtk-3.0/
 .config/gtk-2.0/
@@ -17,6 +19,7 @@
 .config/neofetch/
 .config/nitrogen/
 .config/pcmanfm/
+.config/qBittorrent/
 .config/QtProject.conf
 .config/spotify/
 .config/user-dirs.*
