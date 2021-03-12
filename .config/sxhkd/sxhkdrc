@@ -6,6 +6,10 @@
 super + Return
 	alacritty
 
+# scratchpad terminal
+super + F12
+	$HOME/.config/bspwm/scripts/scratchpad_terminal.sh
+
 # file manager
 super + shift + Return
     pcmanfm

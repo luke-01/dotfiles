@@ -56,8 +56,8 @@ output_plugin alsa
 playback.loop 1
 playback.volume 0.0000000
 playlist.current 0
-playlist.cursor.0 0
-playlist.scroll.0 -1
+playlist.cursor.0 3
+playlist.scroll.0 -3
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 Música
 prefwin.geometry.h 538
@@ -66,8 +66,8 @@ prefwin.geometry.x 530
 prefwin.geometry.y 269
 resume.paused 0
 resume.playlist 0
-resume.position 38.162941
-resume.track 1
+resume.position 311.13229
+resume.track 3
 streamer.samplerate 44100
 streamer.samplerate_mult_44 44100
 streamer.samplerate_mult_48 48000

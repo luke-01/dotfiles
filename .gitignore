@@ -5,6 +5,7 @@
 .config/cef_user_data/
 .config/coc/
 .config/dconf/
+.config/deadbeef/config
 .config/deadbeef/dspconfig
 .config/deadbeef/playlists/
 .config/discord/
@@ -24,11 +25,13 @@
 .config/spotify/
 .config/user-dirs.*
 .config/VirtualBox/
+.config/vlc/
 .dmrc
 Documentos/
 Downloads/
 Escritorio/
 gamemode/
+.gitconfig
 .gnupg/
 .gtkrc-2.0
 .icons/
