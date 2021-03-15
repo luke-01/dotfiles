@@ -42,12 +42,14 @@ Imágenes/
 misc/
 Música/
 .MTREE
+.npm/
 Pictures/
 .PKGINFO
 .pki/
 Plantillas/
 Público/
 .rustup/
+.ssh/
 .steam/
 .steampath
 .steampid

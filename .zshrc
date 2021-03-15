@@ -11,9 +11,9 @@ zmodload zsh/complist
 compinit
 
 #aliases
-alias ls='ls --color=auto'
-alias la='ls -A'
-alias ll='ls -Al'
+alias ls='exa'
+alias la='exa -a'
+alias ll='exa -la'
 alias df='df -h'
 alias vi=nvim
 alias yay='yay --sudoloop'
@@ -26,4 +26,5 @@ neofetch
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+[[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
 eval "$(starship init zsh)"
