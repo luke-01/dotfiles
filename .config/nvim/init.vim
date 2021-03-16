@@ -84,6 +84,7 @@ colorscheme onedark
 let g:completion_matching_strategy_list = ["exact", "substring", "fuzzy"]
 
 lua << EOF
-require('lspconfig').clangd.setup{on_attach=require'completion'.on_attach}
-require('nvim-treesitter.configs').setup{highlight = {enable = true}}
+require'lspconfig'.clangd.setup{on_attach=require'completion'.on_attach}
+require'lspconfig'.cmake.setup{on_attach=require'completion'.on_attach}
+require'nvim-treesitter.configs'.setup{highlight = {enable = true}}
 EOF
