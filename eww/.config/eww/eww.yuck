@@ -1,0 +1,25 @@
+(defwindow statbar
+    :monitor 0
+    :geometry (geometry :x "0%" :y "0%" :width "100%" :height "30px" :anchor "top center")
+    :stacking "fg"
+    :focusable false
+    (bar))
+
+
+(defwidget battery [] 
+    (circular-progress
+        :start-at "0"
+        :value "${EWW_BATTERY.BAT1.capacity}"
+        :thickness "3"
+        :clockwise true
+        :tooltip "${EWW_BATTERY.BAT1.capacity}% ${EWW_BATTERY.BAT1.status}"))
+
+(defwidget time []
+    (box :class "time-widget" 
+        {formattime(EWW_TIME, "%H:%M")} ))
+
+
+(defwidget bar []
+    (box :hexpand true
+        (battery)
+        (time)))
