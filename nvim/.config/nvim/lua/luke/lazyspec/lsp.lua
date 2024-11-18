@@ -11,7 +11,10 @@ return {
         local caps = require('cmp_nvim_lsp').default_capabilities()
 
         lspconfig.lua_ls.setup({ capabilities = caps })
-        lspconfig.clangd.setup({ capabilities = caps })
+        lspconfig.clangd.setup({
+            cmd = { '/usr/local/bin/clangd' },
+            capabilities = caps
+        })
 
         local lsp_group = vim.api.nvim_create_augroup('LukeLspGroup', { clear = true  })
         vim.api.nvim_create_autocmd('LspAttach', {
