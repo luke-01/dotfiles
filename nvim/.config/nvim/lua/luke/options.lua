@@ -18,5 +18,6 @@ vim.opt.tabstop = tab_size
 vim.opt.termguicolors = true
 vim.opt.undofile = true
 vim.opt.updatetime = 40
+vim.opt.wrap = false
 
 vim.diagnostic.config({ update_in_insert = true })
