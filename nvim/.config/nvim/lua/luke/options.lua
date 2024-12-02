@@ -1,4 +1,5 @@
 local tab_size = 4
+
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.colorcolumn = '100'
 vim.opt.cursorline = true
